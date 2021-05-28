@@ -63,7 +63,9 @@
   }
 
   .discover {
-    min-width: 100%;
+    overflow: clip;
+    max-width: 23.4375rem;
+    width: 100%;
     position: relative;
     
     header {
@@ -226,6 +228,7 @@
   }
 
   .reading {
+    max-width: 23.4375rem;
     width: 100%;
     
     header {
