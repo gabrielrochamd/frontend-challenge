@@ -1,0 +1,82 @@
+.container {
+  align-items: center;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 93.47vh;
+  padding-bottom: 3.5rem;
+  position: relative;
+
+  & > * {
+    width: 20.9375rem;
+  }
+
+  .topBar {
+    background: url(../../assets/images/top-bar-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-bottom-right-radius: 6.25rem;
+    height: 17.625rem;
+    justify-content: center;
+    width: 100%;
+
+    .backButtonContainer {
+      margin: 3.4375rem auto 0.9375rem;
+      width: 19.4375rem;
+
+      button {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        font-size: 0;
+      }
+    }
+
+    .imageContainer {
+      font-size: 0;
+      margin-bottom: 2.25rem;
+      text-align: center;
+
+      img {
+        height: 14.3125rem;
+      }
+    }
+  }
+
+  .title {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0.03125rem;
+    margin-bottom: 0.4375rem;
+    margin-top: 4.1875rem;
+
+    strong {
+      font-weight: 700;
+      letter-spacing: 0.09375rem;
+    }
+  }
+
+  .author {
+    color: #ff6978;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.625rem;
+  }
+
+  .description {
+    color: rgba(49, 49, 49, 0.6);
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0.0125rem;
+    line-height: 1.5625rem;
+    overflow-y: scroll;
+  }
+}
+
+.loading {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}

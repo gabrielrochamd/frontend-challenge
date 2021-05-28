@@ -1,0 +1,98 @@
+.container {
+  align-items: center;
+  background: #fffcf9;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3.75rem;
+  padding-top: 3rem;
+
+  & > * {
+    width: 20.9375rem;
+  }
+
+  .inputContainer {
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    cursor: text;
+    display: flex;
+    gap: 0.625rem;
+    height: 3rem;
+    margin-bottom: 2.625rem;
+    padding: 1rem 0.9375rem;
+
+    img {
+      height: 1rem;
+      transform: rotate(90deg);
+      width: 1rem;
+    }
+
+    input {
+      border: none;
+      color: #000;
+      font-weight: 600;
+      height: 1.25rem;
+      line-height: 1.125rem;
+      padding-bottom: 0.125rem;
+
+      &:focus {
+        outline: none;
+      }
+
+      &::placeholder {
+        opacity: 1;
+        font-weight: initial;
+      }
+    }
+  }
+
+  .bookList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 0.875rem;
+
+    .book {
+      max-width: 6.25rem;
+      
+      .imageContainer {
+        height: 9.375rem;
+        margin-bottom: 0.625rem;
+        
+        img {
+          height: 100%;
+          width: 100%;
+        }
+      }
+
+      .title {
+        color: #313131;
+        font-size: 0.75rem;
+        font-weight: 700;
+        margin-bottom: 0.3125rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 100%;
+      }
+
+      .author {
+        color: #313131;
+        font-size: 0.625rem;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .loadMoreContainer {
+    margin: 1.25rem 0;
+    
+    .loadMoreButton {
+      background: #fff;
+      border: 1px solid rgba(49, 49, 49, 0.2);
+      border-radius: 0.3125rem;
+      font-size: 0.8125rem;
+      padding: 0.3125rem 0;
+      width: 100%;
+    }
+  }
+}

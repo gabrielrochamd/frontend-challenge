@@ -1,0 +1,57 @@
+.container {
+  align-items: center;
+  background: url(../../assets/images/reading-bg.png);
+  background-position: left center;
+  background-repeat: no-repeat;
+  display: flex;
+  gap: 0.625rem;
+  padding-left: 1.1875rem;
+
+  .imageContainer {
+    width: 5.5rem;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    height: 6.25rem;
+    justify-content: space-between;
+    padding: 1.25rem 0 0.625rem;
+
+    .title {
+      h2 {
+        font: 700 1.25rem 'Playfair Display', serif;
+        letter-spacing: 0.125rem;
+        margin-bottom: 0.3125rem;
+      }
+
+      h3 {
+        color: #74776d;
+        font: 400 0.625rem 'Roboto', sans-serif;
+      }
+    }
+    
+    .bookmark {
+      align-items: center;
+      display: flex;
+
+      img {
+        margin-right: 0.1875rem;
+      }
+
+      span {
+        font-size: 0.625rem;
+        letter-spacing: 0.00125rem;
+        
+        .chapterNumber {
+          color: #ff6978;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}

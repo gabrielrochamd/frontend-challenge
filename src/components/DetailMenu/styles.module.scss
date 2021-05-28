@@ -1,0 +1,33 @@
+.container {
+  align-items: center;
+  background: #fff;
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+
+  .button {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    gap: 0.28125rem;
+    height: 3.5rem;
+    justify-content: space-evenly;
+
+    span {
+      color: #3f4043;
+      font-size: 0.875rem;
+      font-weight: 600;
+    }
+  }
+
+  .divider {
+    border-left: 0.5px solid #979797;
+    border-right: 0.5px solid #979797;
+    height: 1rem;
+    opacity: 0.2;
+  }
+}

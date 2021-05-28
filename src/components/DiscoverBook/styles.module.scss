@@ -1,0 +1,69 @@
+.paddingContainer {
+  display: inline-block;
+  flex-shrink: 0;
+
+  .container {
+    border-radius: 5px;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 8.6875rem;
+    padding: 1.0625rem 1.25rem;
+    position: relative;
+    width: 17rem;
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      
+      h2 {
+        font: 700 1.5rem 'Playfair Display', serif;
+        letter-spacing: 0.125rem;
+        margin-bottom: 0.3125rem;
+      }
+
+      h3 {
+        font: 400 0.875rem 'Roboto', sans-serif;
+        font-style: italic;
+        letter-spacing: 0.080625rem;
+      }
+
+      span {
+        align-items: flex-end;
+        display: flex;
+        flex: 1;
+
+        div {
+          align-items: center;
+          display: flex;
+          font-family: 'Roboto', sans-serif;
+          font-size: 0.625rem;
+
+          img {
+            font-size: 0;
+          }
+
+          strong {
+            font-weight: 700;
+          }
+        }
+      }
+    }
+
+    .cover {
+      display: flex;
+      justify-content: flex-end;
+      
+      .imageContainer {
+        background: #fff;
+        border-radius: 5px;
+        height: 6.1825rem;
+
+        img {
+          border-radius: 5px;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
